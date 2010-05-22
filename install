@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# TODO: Add confirmation to replace files and remove ~/.hg_archival.txt
+hg archive ~
+rm -f ~/.hg_archival.txt
